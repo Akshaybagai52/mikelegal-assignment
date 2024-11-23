@@ -18,7 +18,7 @@ type MovieItemProps = {
 };
 
 const MovieItem = ({ movie }: { movie: MovieItemProps }) => {
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(false); 
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
